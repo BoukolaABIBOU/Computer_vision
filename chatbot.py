@@ -4,7 +4,7 @@ import streamlit as st
 
 def main():
 
-    st.title('Application WIADA 2023')
+    st.title('Application Boukola WIADA 2023')
     user=st.text_input("Entrer votre nom: ")
     if st.button("Dis bonjour"):
         if user:
